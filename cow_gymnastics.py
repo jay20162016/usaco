@@ -10,3 +10,5 @@ for i in input:
     sets.append(get_possible_pairs(i))
 
 fset = sets[0].intersection(*sets)
+
+print(len(fset))
